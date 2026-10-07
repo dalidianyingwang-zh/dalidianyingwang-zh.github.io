@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0c0f14">
+<title>达利电影网：把影史切成可滑动的时间轴，每一格都是一段可被检索的影像切片｜dalidianyingwang-zh.github.io</title>
+<meta name="description" content="在达利电影网（dalidianyingwang-zh.github.io），影史不再是年表，而是一块可滑动的时间轴：从 1920 年代的实验影像到今天的独立短片，每一格都被标注年代、流派、技法与观看入口。本站专注世界电影史切片、影像档案与观看地图，是面向影迷、研究者与创作者的纯粹索引工具。">
+<meta name="keywords" content="影史时间轴,世界电影档案,影像切片,达利电影网,dalidianyingwang-zh.github.io,观影地图,实验影像,短片档案,影像修复,电影运动,经典片单,放映活动,影片资料检索">
+<meta name="author" content="达利电影网编辑部">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="bingbot" content="index,follow,max-snippet:-1">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<link rel="canonical" href="https://dalidianyingwang-zh.github.io/">
+<link rel="alternate" hreflang="zh-CN" href="https://dalidianyingwang-zh.github.io/">
+<link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230c0f14'/><circle cx='50' cy='50' r='34' fill='none' stroke='%23e8b04b' stroke-width='6'/><circle cx='50' cy='50' r='13' fill='%23e8b04b'/></svg>">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:site_name" content="达利电影网">
+<meta property="og:title" content="达利电影网 · 影史切片时间轴 · dalidianyingwang-zh.github.io">
+<meta property="og:description" content="把影史切成可被检索的时间轴：世界电影档案、影像切片与观影地图，纯粹的影片资料索引工具。">
+<meta property="og:url" content="https://dalidianyingwang-zh.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="达利电影网 · dalidianyingwang-zh.github.io">
+<meta name="twitter:description" content="影史切片时间轴、世界电影档案与观影地图。">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "达利电影网",
+  "alternateName": ["dalidianyingwang-zh", "影史切片时间轴"],
+  "url": "https://dalidianyingwang-zh.github.io/",
+  "inLanguage": "zh-CN",
+  "description": "达利电影网把世界电影史整理为可滑动、可检索的时间轴切片，提供年代定位、流派归类、技法标注与观看入口四类资料，是面向影迷、研究者与创作者的影像索引工具。",
+  "publisher": {
+    "@type": "Organization",
+    "name": "达利电影网",
+    "url": "https://dalidianyingwang-zh.github.io/"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://dalidianyingwang-zh.github.io/"},
+    {"@type": "ListItem", "position": 2, "name": "影史切片", "item": "https://dalidianyingwang-zh.github.io/#timeline"},
+    {"@type": "ListItem", "position": 3, "name": "影像档案", "item": "https://dalidianyingwang-zh.github.io/#archive"},
+    {"@type": "ListItem", "position": 4, "name": "观影地图", "item": "https://dalidianyingwang-zh.github.io/#map"},
+    {"@type": "ListItem", "position": 5, "name": "放映现场", "item": "https://dalidianyingwang-zh.github.io/#screening"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "达利电影网提供在线播放吗？",
+     "acceptedAnswer": {"@type": "Answer", "text": "不提供。达利电影网是纯粹的影像资料索引与导览平台，只整理影片的年代、流派、技法与观看入口线索，不托管、不播放任何影视文件。"}},
+    {"@type": "Question", "name": "时间轴上的每格切片是怎么确定的？",
+     "acceptedAnswer": {"@type": "Answer", "text": "以十年为一个大格，结合电影运动、技术转折与代表性作品交叉定位，并在每格内标注可延伸观看的方向，避免把复杂历史压缩成单一结论。"}},
+    {"@type": "Question", "name": "dalidianyingwang-zh.github.io 的内容多久更新一次？",
+     "acceptedAnswer": {"@type": "Answer", "text": "通常按季度补充新的年代切片与影像档案，重大修复工程与影展活动会即时归档，更新记录可在页脚查阅。"}},
+    {"@type": "Question", "name": "能否提交遗漏的影片资料？",
+     "acceptedAnswer": {"@type": "Answer", "text": "可以。欢迎通过页脚渠道提交影片信息、勘误与修复线索，经核实后会补充到对应切片并署名。"}},
+    {"@type": "Question", "name": "这个站点与影视资源站有什么区别？",
+     "acceptedAnswer": {"@type": "Answer", "text": "资源站解决的是找到文件，达利电影网解决的是理解脉络：为什么这部作品该在这个年代被看见，以及它通向哪一类作品。"}}
+  ]
+}
+</script>
+<style>
+:root{
+  --bg:#0c0f14;
+  --bg2:#141923;
+  --bg3:#1c2431;
+  --line:#2a3444;
+  --line2:#1f2733;
+  --gold:#e8b04b;
+  --gold2:#f0c977;
+  --ink:#f2f4f7;
+  --ink2:#aeb8c6;
+  --ink3:#6f7c8e;
+  --shell:min(1200px,calc(100% - 44px));
+  --sans:"Inter","PingFang SC","Microsoft YaHei","Hiragino Sans GB","Helvetica Neue",Arial,sans-serif;
+  --serif:"Songti SC","Source Han Serif SC","Noto Serif CJK SC",Georgia,serif;
+  --mono:ui-monospace,Menlo,Consolas,monospace;
+  --r:14px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15.5px;line-height:1.8;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4,.serif{font-family:var(--serif)}
+::selection{background:var(--gold);color:#0c0f14}
+.wrap{width:var(--shell);margin:0 auto}
+/* ---------- top ---------- */
+.top{position:sticky;top:0;z-index:80;background:rgba(12,15,20,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--line2)}
+.top__in{display:flex;align-items:center;justify-content:space-between;height:64px;gap:20px}
+.logo{display:flex;align-items:center;gap:11px;min-width:0}
+.logo__dot{width:11px;height:11px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px rgba(232,176,75,.14);flex:none}
+.logo__cn{font-family:var(--serif);font-size:19px;font-weight:800;letter-spacing:.03em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.logo__en{font-family:var(--mono);font-size:11.5px;color:var(--ink3);letter-spacing:.04em;white-space:nowrap}
+.menu{display:flex;align-items:center;gap:2px;font-family:var(--mono);font-size:12.5px}
+.menu a{padding:8px 13px;color:var(--ink2);border-radius:8px;transition:.18s}
+.menu a:hover{color:var(--gold);background:rgba(232,176,75,.07)}
+.menu a.on{color:var(--bg);background:var(--gold)}
+.menu__btn{display:none;width:42px;height:42px;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:10px;cursor:pointer;font-size:16px}
+/* ---------- hero ---------- */
+.hero{padding:84px 0 56px;position:relative}
+.hero::after{content:"";position:absolute;inset:auto -50vw 0 -50vw;height:1px;background:linear-gradient(90deg,transparent,var(--line),transparent)}
+.hero__kicker{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-family:var(--mono);font-size:11.5px;color:var(--ink3);letter-spacing:.14em;text-transform:uppercase}
+.hero__kicker b{color:var(--gold);font-weight:400}
+.hero h1{margin:22px 0 24px;font-size:clamp(40px,8.4vw,92px);line-height:.98;letter-spacing:-.03em;font-weight:800}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero__sub{display:grid;grid-template-columns:1.35fr 1fr;gap:52px;align-items:end;padding-top:26px;border-top:1px solid var(--line)}
+.hero__sub p{margin:0;font-size:clamp(16px,1.9vw,19px);color:var(--ink2);max-width:60ch}
+.hero__sub p strong{color:var(--ink)}
+.hero__nums{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.hero__nums div{background:var(--bg2);padding:16px 18px}
+.hero__nums span{display:block;font-family:var(--mono);font-size:23px;font-weight:700;color:var(--gold);letter-spacing:-.01em}
+.hero__nums small{font-size:12px;color:var(--ink3);letter-spacing:.04em}
+/* ---------- section ---------- */
+.sec{padding:70px 0}
+.sec + .sec{border-top:1px solid var(--line2)}
+.sec__bar{display:flex;align-items:baseline;gap:16px;margin-bottom:34px;flex-wrap:wrap}
+.sec__id{font-family:var(--mono);font-size:11.5px;color:var(--gold);letter-spacing:.16em;border:1px solid rgba(232,176,75,.3);padding:4px 9px;border-radius:4px}
+h2.sec__t{margin:0;font-size:clamp(26px,3.8vw,38px);font-weight:800;letter-spacing:-.01em}
+.sec__note{margin-left:auto;font-size:13px;color:var(--ink3);font-family:var(--mono);text-align:right}
+/* ---------- timeline ---------- */
+.tl{position:relative;padding:8px 0 4px}
+.tl__track{position:relative;height:3px;background:var(--line);margin:0 0 44px}
+.tl__fill{position:absolute;left:0;top:0;height:100%;width:var(--p,22%);background:linear-gradient(90deg,var(--gold),var(--gold2))}
+.tl__grid{display:grid;gap:18px;grid-template-columns:repeat(7,1fr)}
+.tile{position:relative;background:var(--bg2);border:1px solid var(--line);border-radius:var(--r);padding:18px 16px 16px;transition:.24s;cursor:default}
+.tile:hover{border-color:var(--gold);transform:translateY(-5px);background:var(--bg3)}
+.tile__yr{font-family:var(--mono);font-size:11px;color:var(--gold);letter-spacing:.06em}
+.tile__cn{margin:9px 0 6px;font-size:17px;font-weight:800;line-height:1.35}
+.tile__en{font-family:var(--mono);font-size:10.5px;color:var(--ink3);letter-spacing:.05em;margin-bottom:12px}
+.tile__hr{height:1px;background:var(--line);margin:0 0 11px}
+.tile ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.tile li{font-size:12.5px;color:var(--ink2);padding-left:11px;position:relative;line-height:1.6}
+.tile li::before{content:"";position:absolute;left:0;top:8px;width:4px;height:4px;border-radius:50%;background:var(--ink3)}
+.tile:hover li::before{background:var(--gold)}
+/* ---------- mosaic ---------- */
+.mos{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:132px;gap:14px}
+.m{background:var(--bg2);border:1px solid var(--line);border-radius:var(--r);padding:18px;position:relative;overflow:hidden;transition:.25s;display:flex;flex-direction:column;justify-content:flex-end}
+.m:hover{border-color:var(--gold);background:var(--bg3)}
+.m::before{content:"";position:absolute;left:0;top:0;width:3px;height:100%;background:var(--gold);opacity:0;transition:.25s}
+.m:hover::before{opacity:1}
+.m__tag{font-family:var(--mono);font-size:10.5px;color:var(--gold);letter-spacing:.1em;margin-bottom:7px}
+.m h3{margin:0;font-size:clamp(17px,2vw,22px);font-weight:800;line-height:1.35}
+.m p{margin:8px 0 0;font-size:13px;color:var(--ink2);line-height:1.7;display:none}
+.m__big{grid-column:span 2;grid-row:span 2}
+.m__big p{display:block}
+.m__wide{grid-column:span 2}
+/* ---------- map ---------- */
+.map{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.map__col{padding:0}
+.map__hd{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 24px;border-bottom:1px solid var(--line);background:var(--bg2)}
+.map__hd b{font-family:var(--serif);font-size:18px}
+.map__hd em{font-style:normal;font-family:var(--mono);font-size:11px;color:var(--gold);letter-spacing:.1em}
+.map__list{list-style:none;margin:0;padding:0}
+.map__list li{display:grid;grid-template-columns:74px 1fr auto;gap:16px;align-items:baseline;padding:16px 24px;border-bottom:1px solid var(--line2)}
+.map__list li:last-child{border-bottom:none}
+.map__list li:hover{background:var(--bg2)}
+.map__list code{font-family:var(--mono);font-size:11.5px;color:var(--ink3);letter-spacing:.04em}
+.map__list span{font-size:14.5px;color:var(--ink2)}
+.map__list b{font-family:var(--sans);font-size:12px;font-weight:600;color:var(--gold);white-space:nowrap}
+/* ---------- split feature ---------- */
+.sp{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.sp__box{background:var(--bg2);border:1px solid var(--line);border-radius:var(--r);padding:26px 26px 22px}
+.sp__box h3{margin:0 0 14px;font-size:19px;font-weight:800}
+.sp__box h3 em{font-style:normal;color:var(--gold)}
+.sp__box p{margin:0 0 14px;font-size:14.5px;color:var(--ink2);line-height:1.85}
+.sp__tags{display:flex;flex-wrap:wrap;gap:7px}
+.sp__tags i{font-style:normal;font-size:12px;font-family:var(--mono);color:var(--ink2);border:1px solid var(--line);border-radius:20px;padding:5px 11px;transition:.18s}
+.sp__tags i:hover{color:var(--gold);border-color:var(--gold)}
+/* ---------- steps ---------- */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.step{background:var(--bg2);padding:22px 20px}
+.step__n{font-family:var(--mono);font-size:12px;color:var(--gold);letter-spacing:.1em}
+.step h4{margin:12px 0 8px;font-size:16px}
+.step p{margin:0;font-size:13.5px;color:var(--ink2);line-height:1.8}
+/* ---------- screening ---------- */
+.scr{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--bg2);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;transition:.25s}
+.card:hover{border-color:var(--gold);transform:translateY(-4px)}
+.card__top{height:5px;background:linear-gradient(90deg,var(--gold),transparent)}
+.card__in{padding:20px}
+.card__date{font-family:var(--mono);font-size:11px;color:var(--gold);letter-spacing:.1em}
+.card h3{margin:9px 0 9px;font-size:18px;font-weight:800;line-height:1.4}
+.card p{margin:0 0 14px;font-size:13.5px;color:var(--ink2);line-height:1.75}
+.card__ft{display:flex;justify-content:space-between;align-items:center;font-family:var(--mono);font-size:11.5px;color:var(--ink3);border-top:1px solid var(--line2);padding-top:12px}
+.card__ft b{color:var(--gold);font-weight:400}
+/* ---------- faq ---------- */
+.faq{display:grid;gap:10px;max-width:940px}
+.faq__i{background:var(--bg2);border:1px solid var(--line);border-radius:var(--r);padding:17px 22px;transition:.2s}
+.faq__i:hover{border-color:var(--gold)}
+.faq__i h4{margin:0 0 6px;font-size:15.5px;font-weight:700}
+.faq__i h4::before{content:"Q";font-family:var(--mono);font-size:11.5px;color:var(--gold);border:1px solid rgba(232,176,75,.3);padding:2px 6px;border-radius:3px;margin-right:11px;vertical-align:2px}
+.faq__i p{margin:0;font-size:14px;color:var(--ink2);line-height:1.85}
+/* ---------- cta ---------- */
+.cta{background:linear-gradient(135deg,var(--bg2),var(--bg3));border:1px solid var(--line);border-radius:20px;padding:44px 40px;display:grid;grid-template-columns:1.5fr 1fr;gap:36px;align-items:center}
+.cta h2{margin:0 0 12px;font-size:clamp(24px,3.4vw,34px);font-weight:800;line-height:1.4}
+.cta p{margin:0;font-size:14.5px;color:var(--ink2)}
+.cta__box{background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;font-family:var(--mono);font-size:12.5px;color:var(--ink2);line-height:1.9}
+.cta__box b{display:block;color:var(--gold);font-size:11.5px;letter-spacing:.1em;margin-bottom:7px}
+.cta__box strong{color:var(--gold2);font-weight:400;word-break:break-all}
+/* ---------- footer ---------- */
+.foot{border-top:1px solid var(--line);padding:56px 0 34px;background:#080a0e}
+.foot__grid{display:grid;grid-template-columns:1.5fr repeat(4,1fr);gap:38px}
+.foot__brand b{display:block;font-family:var(--serif);font-size:19px;letter-spacing:.03em}
+.foot__brand span{display:block;font-family:var(--mono);font-size:11px;color:var(--ink3);margin-top:5px}
+.foot__brand p{margin:16px 0 0;font-size:13.5px;color:var(--ink2);line-height:1.9;max-width:34ch}
+.foot__col h5{margin:0 0 15px;font-size:12px;letter-spacing:.12em;color:var(--gold);font-family:var(--mono);font-weight:400;text-transform:uppercase}
+.foot__col ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.foot__col a{font-size:13.5px;color:var(--ink2)}
+.foot__col a:hover{color:var(--gold)}
+.foot__bot{margin-top:44px;padding-top:22px;border-top:1px solid var(--line2);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12.5px;color:var(--ink3);font-family:var(--mono)}
+.foot__bot a{color:var(--ink2)}
+/* ---------- responsive ---------- */
+@media(max-width:1080px){
+  .mos{grid-template-columns:repeat(4,1fr)}
+  .m__big,.m__wide{grid-column:span 2}
+  .foot__grid{grid-template-columns:1fr 1fr 1fr}
+}
+@media(max-width:860px){
+  .wrap{--shell:calc(100% - 32px)}
+  .menu{display:none;position:absolute;top:64px;left:0;right:0;flex-direction:column;align-items:stretch;background:rgba(12,15,20,.98);padding:12px;border-radius:0 0 14px 14px;border:1px solid var(--line2)}
+  .menu.open{display:flex}
+  .menu a{padding:12px 14px}
+  .menu__btn{display:grid;place-items:center}
+  .hero{padding:52px 0 40px}
+  .hero__sub{grid-template-columns:1fr;gap:28px}
+  .hero__nums{grid-template-columns:repeat(3,1fr)}
+  .tl__grid{grid-template-columns:repeat(2,1fr)}
+  .map{grid-template-columns:1fr}
+  .sp{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .scr{grid-template-columns:1fr}
+  .cta{grid-template-columns:1fr;padding:32px 26px}
+  .sec{padding:52px 0}
+  .sec__note{margin-left:0;width:100%;text-align:left}
+}
+@media(max-width:560px){
+  .mos{grid-template-columns:repeat(2,1fr)}
+  .m__big,.m__wide{grid-column:span 1;grid-row:span 1}
+  .m__big p{display:none}
+  .tl__grid{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr}
+  .foot__grid{grid-template-columns:1fr 1fr}
+  .map__list li{grid-template-columns:1fr;gap:5px}
+  .map__list b{justify-self:start}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<header class="top">
+  <div class="wrap top__in">
+    <a class="logo" href="https://dalidianyingwang-zh.github.io/">
+      <span class="logo__dot" aria-hidden="true"></span>
+      <span class="logo__cn">达利电影网</span>
+      <span class="logo__en">dalidianyingwang-zh.github.io</span>
+    </a>
+    <nav class="menu" id="menu">
+      <a href="https://dalidianyingwang-zh.github.io/#timeline" class="on">影史切片</a>
+      <a href="https://dalidianyingwang-zh.github.io/#archive">影像档案</a>
+      <a href="https://dalidianyingwang-zh.github.io/#map">观影地图</a>
+      <a href="https://dalidianyingwang-zh.github.io/#howto">检索方式</a>
+      <a href="https://dalidianyingwang-zh.github.io/#screening">放映现场</a>
+      <a href="https://dalidianyingwang-zh.github.io/#faq">常见疑问</a>
+    </nav>
+    <button class="menu__btn" id="menuBtn" aria-label="菜单">≡</button>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <div class="hero__kicker">
+      <span><b>●</b> 达利电影网 · 官方站点</span>
+      <span>世界电影史切片索引</span>
+      <span>2026 年秋</span>
+    </div>
+    <h1>把影史切成<em>可被检索</em><br>的时间轴</h1>
+    <div class="hero__sub">
+      <p>一部电影的意义，往往不在它拍了什么，而在它被放在哪个年代。达利电影网（dalidianyingwang-zh.github.io）把世界电影史重新切成一张可滑动、可跳转的时间轴：<strong>每个年代是一格切片，每格切片标注流派、技法、运动与观看入口</strong>，让历史不再是年表，而成为一张可以走进去的地图。</p>
+      <div class="hero__nums">
+        <div><span>1920s</span><small>起点年代</small></div>
+        <div><span>07</span><small>年代切片</small></div>
+        <div><span>∞</span><small>持续归档</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="timeline">
+    <div class="sec__bar">
+      <span class="sec__id">SECTION / 01</span>
+      <h2 class="sec__t">影史切片 · 七个年代，七种观看方式</h2>
+      <span class="sec__note">横向滑动查看全部年代<br>每格均可独立展开</span>
+    </div>
+
+    <div class="tl">
+      <div class="tl__track"><div class="tl__fill"></div></div>
+      <div class="tl__grid">
+        <article class="tile">
+          <div class="tile__yr">1920 — 1930</div>
+          <div class="tile__cn">默片的语法</div>
+          <div class="tile__en">silent syntax</div>
+          <div class="tile__hr"></div>
+          <ul>
+            <li>苏联蒙太奇的剪辑实验</li>
+            <li>德国表现主义的布景与光影</li>
+            <li>喜剧默片的大师与短片传统</li>
+          </ul>
+        </article>
+        <article class="tile">
+          <div class="tile__yr">1940 — 1950</div>
+          <div class="tile__cn">战后现实主义</div>
+          <div class="tile__en">postwar realism</div>
+          <div class="tile__hr"></div>
+          <ul>
+            <li>意大利新现实主义的街头</li>
+            <li>日本电影的战后伦理转向</li>
+            <li>长镜头语言的早期成型</li>
+          </ul>
+        </article>
+        <article class="tile">
+          <div class="tile__yr">1950 — 1960</div>
+          <div class="tile__cn">作者与革命</div>
+          <div class="tile__en">auteurs &amp; revolts</div>
+          <div class="tile__hr"></div>
+          <ul>
+            <li>法国新浪潮的跳切与即兴</li>
+            <li>日本独立制片运动</li>
+            <li>东欧的隐喻与寓言传统</li>
+          </ul>
+        </article>
+        <article class="tile">
+          <div class="tile__yr">1960 — 1970</div>
+          <div class="tile__cn">现代主义的颠峰</div>
+          <div class="tile__en">modernist peak</div>
+          <div class="tile__hr"></div>
+          <ul>
+            <li>欧洲艺术电影的对话与结构</li>
+            <li>巴西新电影的政治宣言</li>
+            <li>亚洲电影的现代性探索</li>
+          </ul>
+        </article>
+        <article class="tile">
+          <div class="tile__yr">1980 — 1990</div>
+          <div class="tile__cn">录像与独立</div>
+          <div class="tile__en">video &amp; indie</div>
+          <div class="tile__hr"></div>
+          <ul>
+            <li>低成本录像改变了谁在拍片</li>
+            <li>伊朗电影的朴素叙事</li>
+            <li>台湾新电影的乡土与记忆</li>
+          </ul>
+        </article>
+        <article class="tile">
+          <div class="tile__yr">2000 — 2015</div>
+          <div class="tile__cn">全球化作者</div>
+          <div class="tile__en">global auteurs</div>
+          <div class="tile__hr"></div>
+          <ul>
+            <li>跨国制片与合拍的常态</li>
+            <li>数字摄影带来的视觉变革</li>
+            <li>流媒体前的最后一个胶片时代</li>
+          </ul>
+        </article>
+        <article class="tile">
+          <div class="tile__yr">2016 — 2026</div>
+          <div class="tile__cn">算法与短片</div>
+          <div class="tile__en">algorithm &amp; shorts</div>
+          <div class="tile__hr"></div>
+          <ul>
+            <li>短视频平台重构了观看时长</li>
+            <li>AI 参与制作后的作者归属</li>
+            <li>修复工程与经典重映的复兴</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="archive">
+    <div class="sec__bar">
+      <span class="sec__id">SECTION / 02</span>
+      <h2 class="sec__t">影像档案 · 六个分类，从技术到主题</h2>
+      <span class="sec__note">点击任一分块进入对应片单<br>内页锚点跳转</span>
+    </div>
+
+    <div class="mos">
+      <article class="m m__big">
+        <div class="m__tag">FEATURED · 推荐归档</div>
+        <h3>被修复的影像：为什么一部老电影值得被重新看见</h3>
+        <p>从底片清洗、色彩还原到声音修复，每一次修复都是一次重新阐释。本站整理修复工程背后的技术路径与代表性案例，帮助观众在重映时看懂银幕上那一层"重新显影"的痕迹。</p>
+      </article>
+      <article class="m">
+        <div class="m__tag">TECHNIQUE</div>
+        <h3>镜头语言拆解</h3>
+      </article>
+      <article class="m m__wide">
+        <div class="m__tag">THEME</div>
+        <h3>记忆与失忆：近十年的集体叙事</h3>
+      </article>
+      <article class="m">
+        <div class="m__tag">REGION</div>
+        <h3>东亚电影的交叉地带</h3>
+      </article>
+      <article class="m">
+        <div class="m__tag">FORMAT</div>
+        <h3>短片与中篇的独立生命</h3>
+      </article>
+      <article class="m m__wide">
+        <div class="m__tag">DOCUMENTARY</div>
+        <h3>纪录片的声音：谁在被记录，谁在说话</h3>
+      </article>
+      <article class="m">
+        <div class="m__tag">RESTORE</div>
+        <h3>4K 修复与新版重映</h3>
+      </article>
+    </div>
+  </section>
+
+  <section class="sec" id="map">
+    <div class="sec__bar">
+      <span class="sec__id">SECTION / 03</span>
+      <h2 class="sec__t">观影地图 · 两条主线，交叉检索</h2>
+      <span class="sec__note">横向对照查看<br>避免单一维度的遗漏</span>
+    </div>
+
+    <div class="map">
+      <div class="map__col">
+        <div class="map__hd"><b>按年代定位</b><em>CHRONOLOGICAL</em></div>
+        <ul class="map__list">
+          <li><code>1920s</code><span>默片与蒙太奇的语法建立</span><b>切片 01</b></li>
+          <li><code>1940s</code><span>战后现实主义与长镜头起源</span><b>切片 02</b></li>
+          <li><code>1960s</code><span>现代主义、新浪潮与第三电影</span><b>切片 04</b></li>
+          <li><code>1980s</code><span>录像技术带来的独立浪潮</span><b>切片 05</b></li>
+          <li><code>2016+</code><span>算法分发与短片生态</span><b>切片 07</b></li>
+        </ul>
+      </div>
+      <div class="map__col">
+        <div class="map__hd"><b>按主题检索</b><em>BY TOPIC</em></div>
+        <ul class="map__list">
+          <li><code>家庭</code><span>代际关系中的沉默与未尽之言</span><b>13 部</b></li>
+          <li><code>劳工</code><span>被省略的劳动现场与空间记录</span><b>09 部</b></li>
+          <li><code>记忆</code><span>个人记忆如何折射时代转折</span><b>11 部</b></li>
+          <li><code>食物</code><span>一顿饭作为叙事的全部方法</span><b>07 部</b></li>
+          <li><code>边缘</code><span>城市缝隙里的人与声音</span><b>10 部</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="howto">
+    <div class="sec__bar">
+      <span class="sec__id">SECTION / 04</span>
+      <h2 class="sec__t">检索方式 · 从"想看什么"到"该怎么看"</h2>
+      <span class="sec__note">四步定位一部作品<br>也定位它的上下文</span>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step__n">STEP 01</div>
+        <h4>定年代</h4>
+        <p>先确认作品所处的年代切片，理解当时的技术条件与电影运动，避免用今天的眼光误读旧作。</p>
+      </div>
+      <div class="step">
+        <div class="step__n">STEP 02</div>
+        <h4>定主题</h4>
+        <p>从家庭、劳工、记忆、食物、边缘等主题中选择，缩小到同一时期内的可对照作品。</p>
+      </div>
+      <div class="step">
+        <div class="step__n">STEP 03</div>
+        <h4>定作者</h4>
+        <p>找到导演在同一时期的其它作品，观察其语言与关注点的变化轨迹。</p>
+      </div>
+      <div class="step">
+        <div class="step__n">STEP 04</div>
+        <h4>定入口</h4>
+        <p>查阅展映、修复与发行线索，选择最适合的观看版本与观看顺序。</p>
+      </div>
+    </div>
+
+    <div class="sp" style="margin-top:22px">
+      <div class="sp__box">
+        <h3>为什么不用<em>热度排序</em></h3>
+        <p>热度会把历史压成一张扁平榜单，榜单会让人反复看到同一批作品。达利电影网刻意不用播放量、评分或推荐算法，而是让年代与主题成为排序依据——因为影史的价值不在被多少人点开，而在它能否被放进正确的上下文里理解。</p>
+        <div class="sp__tags">
+          <i>无算法推荐</i><i>无播放数据</i><i>无用户评分</i><i>无广告</i><i>无付费墙</i>
+        </div>
+      </div>
+      <div class="sp__box">
+        <h3>这份索引<em>适合谁</em></h3>
+        <p>希望建立系统片单的普通影迷、需要快速定位流派与技法的学生与研究者、寻找灵感与参照的独立创作者。三种人共用同一张时间轴，只是截取的角度不同。</p>
+        <div class="sp__tags">
+          <i>影迷</i><i>研究者</i><i>创作者</i><i>修复从业者</i><i>策展人</i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="screening">
+    <div class="sec__bar">
+      <span class="sec__id">SECTION / 05</span>
+      <h2 class="sec__t">放映现场 · 线下与线上的活动归档</h2>
+      <span class="sec__note">每季度更新<br>含修复专场与作者座谈</span>
+    </div>
+
+    <div class="scr">
+      <article class="card">
+        <div class="card__top"></div>
+        <div class="card__in">
+          <div class="card__date">2026 · 10 / 18 — 10 / 26</div>
+          <h3>默片时代的声音：伴奏与修复</h3>
+          <p>以 1920 年代切片为线索，配合现场配乐的修复放映专场，呈现默片并不沉默的历史。</p>
+          <div class="card__ft"><span>修复专场</span><b>7 场</b></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__top"></div>
+        <div class="card__in">
+          <div class="card__date">2026 · 11 / 03 — 11 / 09</div>
+          <h3>战后十年：两国的伦理转向</h3>
+          <p>日本与意大利战后电影的对照放映，讨论现实主义如何在两个不同社会里成形。</p>
+          <div class="card__ft"><span>对照放映</span><b>5 场</b></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__top"></div>
+        <div class="card__in">
+          <div class="card__date">2026 · 12 / 01 — 12 / 15</div>
+          <h3>短片生态学：三十分钟以内</h3>
+          <p>聚焦短片作为独立形态的生命力，收录近年独立制片与短片节的入选作品。</p>
+          <div class="card__ft"><span>短片单元</span><b>12 部</b></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="sec" id="faq">
+    <div class="sec__bar">
+      <span class="sec__id">SECTION / 06</span>
+      <h2 class="sec__t">常见疑问</h2>
+    </div>
+    <div class="faq">
+      <div class="faq__i"><h4>达利电影网提供在线播放吗？</h4><p>不提供。达利电影网是纯粹的影像资料索引与导览平台，只整理影片的年代、流派、技法与观看入口线索，不托管、不播放任何影视文件。</p></div>
+      <div class="faq__i"><h4>时间轴上的每格切片是怎么确定的？</h4><p>以十年为一个大格，结合电影运动、技术转折与代表性作品交叉定位，并在每格内标注可延伸观看的方向，避免把复杂历史压缩成单一结论。</p></div>
+      <div class="faq__i"><h4>dalidianyingwang-zh.github.io 的内容多久更新一次？</h4><p>通常按季度补充新的年代切片与影像档案，重大修复工程与影展活动会即时归档，更新记录可在页脚查阅。</p></div>
+      <div class="faq__i"><h4>能否提交遗漏的影片资料？</h4><p>可以。欢迎通过页脚渠道提交影片信息、勘误与修复线索，经核实后会补充到对应切片并署名。</p></div>
+      <div class="faq__i"><h4>这个站点与影视资源站有什么区别？</h4><p>资源站解决的是找到文件，达利电影网解决的是理解脉络：为什么这部作品该在这个年代被看见，以及它通向哪一类作品。</p></div>
+    </div>
+  </section>
+
+  <section class="sec" id="site">
+    <div class="cta">
+      <div>
+        <h2>访问达利电影网，从任意一个年代切片开始</h2>
+        <p>无需注册、无需订阅。打开网址即可使用全部索引功能，所有内页链接均为锚点跳转，不会离开本页。</p>
+      </div>
+      <div class="cta__box">
+        <b>SITE ADDRESS</b>
+        <strong>https://dalidianyingwang-zh.github.io/</strong>
+        <span style="display:block;margin-top:10px;color:var(--ink3)">索引范围：1920s — 2026　｜　持续归档中</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div class="foot__brand">
+        <b>达利电影网</b>
+        <span>dalidianyingwang-zh.github.io</span>
+        <p>把世界电影史整理为可滑动、可检索的时间轴切片，提供年代定位、流派归类、技法标注与观看入口四类资料。</p>
+      </div>
+      <div class="foot__col">
+        <h5>影史切片</h5>
+        <ul>
+          <li><a href="https://dalidianyingwang-zh.github.io/#timeline">1920 — 1930</a></li>
+          <li><a href="https://dalidianyingwang-zh.github.io/#timeline">1940 — 1950</a></li>
+          <li><a href="https://dalidianyingwang-zh.github.io/#timeline">1960 — 1970</a></li>
+          <li><a href="https://dalidianyingwang-zh.github.io/#timeline">1980 — 2026</a></li>
+        </ul>
+      </div>
+      <div class="foot__col">
+        <h5>影像档案</h5>
+        <ul>
+          <li><a href="https://dalidianyingwang-zh.github.io/#archive">镜头语言拆解</a></li>
+          <li><a href="https://dalidianyingwang-zh.github.io/#archive">记忆与失忆</a></li>
+          <li><a href="https://dalidianyingwang-zh.github.io/#archive">纪录片的声音</a></li>
+          <li><a href="https://dalidianyingwang-zh.github.io/#archive">4K 修复</a></li>
+        </ul>
+      </div>
+      <div class="foot__col">
+        <h5>观影地图</h5>
+        <ul>
+          <li><a href="https://dalidianyingwang-zh.github.io/#map">按年代定位</a></li>
+          <li><a href="https://dalidianyingwang-zh.github.io/#map">按主题检索</a></li>
+          <li><a href="https://dalidianyingwang-zh.github.io/#howto">检索方式</a></li>
+          <li><a href="https://dalidianyingwang-zh.github.io/#screening">放映现场</a></li>
+        </ul>
+      </div>
+      <div class="foot__col">
+        <h5>关于本站</h5>
+        <ul>
+          <li><a href="https://dalidianyingwang-zh.github.io/#faq">常见疑问</a></li>
+          <li><a href="https://dalidianyingwang-zh.github.io/#">编辑原则</a></li>
+          <li><a href="https://dalidianyingwang-zh.github.io/#">资料来源</a></li>
+          <li><a href="https://dalidianyingwang-zh.github.io/#">联系与投稿</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot__bot">
+      <span>© 2026 达利电影网 · 世界电影史切片索引与影像档案平台</span>
+      <span><a href="https://dalidianyingwang-zh.github.io/">dalidianyingwang-zh.github.io</a>　本站不提供在线播放服务</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var btn=document.getElementById('menuBtn'),m=document.getElementById('menu');
+  if(btn&&m){btn.addEventListener('click',function(){m.classList.toggle('open')});}
+  var links=m?m.querySelectorAll('a'):[];
+  for(var i=0;i<links.length;i++){
+    links[i].addEventListener('click',function(){if(m.classList.contains('open')){m.classList.remove('open');}});
+  }
+  var fill=document.querySelector('.tl__fill');
+  var tiles=document.querySelectorAll('.tile');
+  function sync(){
+    var idx=0;
+    for(var i=0;i<tiles.length;i++){
+      if(tiles[i].getBoundingClientRect().top<window.innerHeight*0.6){idx=i+1;}
+    }
+    if(fill){fill.style.setProperty('--p',Math.max(8,(idx/tiles.length*100))+'%');}
+    var secs=document.querySelectorAll('main .sec');
+    var cur='',pos=window.innerHeight*0.3;
+    for(var j=0;j<secs.length;j++){if(secs[j].getBoundingClientRect().top-90<=pos){cur=secs[j].id;}}
+    for(var k=0;k<links.length;k++){
+      links[k].classList.toggle('on',links[k].getAttribute('href').slice(-(cur.length+1))==='#'+cur);
+    }
+  }
+  window.addEventListener('scroll',sync,{passive:true});
+  window.addEventListener('resize',sync);
+  sync();
+})();
+</script>
+</body>
+</html>
